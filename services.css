@@ -1,0 +1,327 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #f1f1f1;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    background-color: #e4e4e4;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: #f57c00;
+    margin-bottom: 30px;
+  }
+  .menu{
+    position: absolute;
+    top: 400px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 15px 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1rem;
+  }
+  
+  .menu a.active,
+  .menu a:hover {
+    color: #f57c00;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  .intro {
+    text-align: justify;
+    width: 1000px;
+}
+
+.link-hover {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.link-hover:hover {
+    color: #f57c00;
+    text-decoration: underline 2px;
+    transform: scale(1.1);
+}
+.web {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.web p {
+    text-align: center;
+}
+.web1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+
+.web1 p {
+    text-align: center;
+}
+.web2 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+}
+.web2 p {
+    text-align: center;
+}
+.web3 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+.web3 p {
+    text-align: center;
+}
+.web4 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+    left: 1500px;
+}
+.web4 p {
+    text-align: center;
+}
+.web5 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+}
+.web5 p {
+    text-align: center;
+}
+.link-hover {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.web:hover {
+    color: #f57c00;
+    text-decoration: underline 2px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.web1:hover {
+    color: #f57c00;
+    text-decoration: underline 2px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.web2:hover {
+    color: #f57c00;
+    text-decoration: underline 2px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.web3:hover {
+    color: #f57c00;
+    text-decoration: underline 2px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.web4:hover {
+    color: #f57c00;
+    text-decoration: underline 2px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.web5:hover {
+    color: #f57c00;
+    text-decoration: underline 2px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.col1 {
+    color: #f57c00;
+}
+.fa-mobile-screen-button {
+    position: absolute;
+    font-size: 50px;
+    top: 250px;
+    left: 680px;
+}
+.fa-laptop-code {
+    position: absolute;
+    font-size: 50px;
+    top: 250px;
+    left: 1180px;
+}
+.fa-palette {
+    position: absolute;
+    font-size: 50px;
+    top: 250px;
+    left: 1680px;
+}
+.fa-code {
+    position: absolute;
+    font-size: 50px;
+    top: 650px;
+    left: 670px;
+}
+.fa-magnifying-glass {
+    position: absolute;
+    font-size: 50px;
+    top: 650px;
+    left: 1180px;
+}
+.fa-bullhorn {
+    position: absolute;
+    font-size: 50px;
+    top: 650px;
+    left: 1680px;
+}
+.my{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.ico p {
+    text-align: justify;
+}
+.ico {
+    position: absolute;
+    top: 150px;
+    width: 380px;
+    margin: 10px;
+}
+.des{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+ font-size: 25px;   
+}
+.des1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+ font-size: 25px;   
+}
+.des2{
+    position: absolute;
+    top: 100px;
+    left: 125px;
+ font-size: 25px;   
+}
+.des3{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+ font-size: 25px;   
+}
+.des4{
+    position: absolute;
+    top: 100px;
+    left: 65px;
+ font-size: 25px;   
+}
+.des5{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+ font-size: 25px;   
+}
+.cont {
+    padding: 10px;
+   background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    top: 800px;
+    left: 680px;
+}
+.cont a {
+text-decoration: none;
+color: #fff;
+}
+.fa-house{
+    position: absolute;
+    top: 416px;
+    left: 150px;
+    }
+    .fa-user{
+      position: absolute;
+    top: 450px;
+    left: 150px;
+    }  
+    .fa-screwdriver-wrench{
+      position: absolute;
+    top: 490px;
+    left: 150px;
+    }  
+    .fa-folder-open{
+      position: absolute;
+    top: 525px;
+    left: 150px;
+    }  
+    .fa-phone{
+      position: absolute;
+    top: 560px;
+    left: 150px;
+    }  
+    

@@ -1,0 +1,303 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #f1f1f1;
+    display: flex;
+    height: 110vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    background-color: #e4e4e4;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: #f57c00;
+    margin-bottom: 30px;
+    position: fixed;
+  }
+  .menu{
+    position: absolute;
+    top: 400px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    position: absolute;
+    top: -16px;
+    left: -30px;
+  }
+  
+  .menu li {
+    margin: 15px 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1rem;
+  }
+  
+  .menu a.active,
+  .menu a:hover {
+    color: #f57c00;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  .mm {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    color: #000000;
+}
+.col2{
+    color: #f57c00;
+}
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 300px;
+}
+h1{
+    color: black;
+}
+.ha{
+    position: absolute;
+    top: 200px;
+    left: 910px;
+    color: #f57c00;
+}
+.imm{
+    position: absolute;
+    top: 250px;
+    left: 990px;
+}
+
+.fa-solid{
+    position: absolute;
+    top: 250px;
+    left: 540px;
+}
+.co{
+    position: absolute;
+    top: 270px;
+    left: 510px;
+}
+.coo{
+    position: absolute;
+    top: 290px;
+    left: 490px;
+}
+.fa-magnifying-glass {
+    position: absolute;
+    top: 250px;
+    left: 900px;
+}
+.loc{
+    position: absolute;
+    top: 270px;
+    left: 880px;
+}
+.loc1{
+    position: absolute;
+    top: 290px;
+    left: 850px;  
+}
+.fa-envelope{
+    position: absolute;
+    top:250px;
+    left: 1310px;
+}
+.ema{
+    position: absolute;
+    top: 270px;
+    left: 1300px;
+}
+.ema1{
+    position: absolute;
+    top: 290px;
+    left: 1220px;
+}
+.hav {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+.col1{
+    color: #f57c00;
+}
+.fa-globe{
+    position: absolute;
+    top: 250px;
+    left: 1720px;
+}
+.web{
+    position: absolute;
+    top: 270px;
+    left: 1680px;
+}
+.web1{
+    position: absolute;
+    top: 290px;
+    left: 1670px;
+}
+.im{
+    position: absolute;
+    top: 250px;
+    left: 630px;
+}
+.se{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    color: #f57c00;
+}
+.see{
+    position: absolute;
+    top: 550px;
+    left: 960px;
+}
+.wrapper .input-box{
+    width: 350%;
+    height: 50px;
+    margin: 30px 0;
+}
+.wrapper textarea{
+    width: 200%;
+    height: 50px;
+    background: #f57c00;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+.input-box textarea{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+.wrapper{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+.wrapper2{
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+}
+.wrapper2 .input-box{
+    width: 350%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input::placeholder{
+    color: #000000;
+    padding: 10px;
+    
+}
+.input-box textarea::placeholder{
+    color: #000000;
+    padding: 10px;
+}
+.wrapper3{
+    position: absolute;
+    top: 800px;
+    left: 700px;
+}
+.input-box button{
+    width: 900%;
+    height: 100%;
+    background-color: #f57c00;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    height: 50px;
+}
+.fim {
+    position: absolute;
+    top: 950px;
+    background-color:  #f57c00;
+    width: 1500px;
+    left: 420px;
+    text-align: center;
+    }
+    .fim a {
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    .fim a:hover {
+        transform: scale(1.1);
+        color: #fff;
+    }
+    .fa-house{
+        position: absolute;
+        top: 416px;
+        left: 150px;
+        position: fixed;
+        }
+        .fa-user{
+          position: absolute;
+        top: 450px;
+        left: 150px;
+        position: fixed;
+        }  
+        .fa-screwdriver-wrench{
+          position: absolute;
+        top: 490px;
+        left: 150px;
+        position: fixed;
+        }  
+        .fa-folder-open{
+          position: absolute;
+        top: 525px;
+        left: 150px;
+        position: fixed;
+        }  
+        .fa-phone{
+          position: absolute;
+        top: 560px;
+        left: 150px;
+        position: fixed;
+        }  
+        .home{
+            position: fixed;
+          }
+          .menu{
+            position: fixed;
+          }
+        
